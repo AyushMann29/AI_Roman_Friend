@@ -8,8 +8,8 @@ from IPython.display import Markdown  # Not necessary for core functionality
 
 import os
 
-GENAI_API_KEY = os.getenv('AIzaSyDMdHxZtLiOxC_ndCMDWmspu6xzzm0nCcw')
-genai.configure(api_key='AIzaSyDMdHxZtLiOxC_ndCMDWmspu6xzzm0nCcw')
+GENAI_API_KEY = os.getenv('GET-API-KEY')
+genai.configure(api_key='GET-API-KEY')
 
 def to_markdown(text):
   text = text.replace('•', '  *')
